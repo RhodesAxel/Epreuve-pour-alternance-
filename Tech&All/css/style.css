@@ -1,0 +1,295 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  html,body {
+    height: 100%;
+  }
+  header {
+    height: 100%;
+  }
+  /* heade */
+  #background {
+  background: url("../img/fond.png") center center / cover no-repeat;
+  height: 100%;
+  width: 100%;
+}
+  img {
+  vertical-align: baseline !important;
+}
+/* PARTIE NAV BAR */
+.navbar-brand {
+      
+  margin-top: 50px;
+  margin-left: 150px;
+  align-items: center;
+}
+  #navbarNav {
+    margin-right: 200px;
+    align-items: center;
+    font-size: 1rem;
+  }
+  .nav-link {
+    color: #fff;
+    
+    
+  }
+  .nav-link:hover {
+    background-color: #53c2c9;
+    border-radius: 15px;
+}
+
+.navbarNav {
+  margin-right: 150px;
+  
+}
+
+/* Menu burger  */
+.navbar-toggler-icon {
+  background-image: url("../img/burger.svg")!important;
+}
+
+  /* partie image mac  */
+.containe-mac {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.mac {
+  margin-top: 80px;
+  margin-bottom: 60px;
+  padding: 35px;
+}
+
+/* partie defillement */
+h3 {
+    text-transform: uppercase;
+    color: #fff;
+    text-align: center;
+}
+.arrow {
+  display: flex;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 35px;
+}
+
+/* partie responsive header  */
+@media (max-width: 575px) {
+  .logo {
+    max-width: 150px;
+  }
+
+}
+@media (max-width: 910px) {
+  .containe-mac {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    
+  }
+  .mac {
+    padding: 10px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  .mac1 {
+    width: 150px;
+    
+
+  }
+  .mac2 {
+    width: 100px;
+
+  }
+  .mac3 {
+    width: 70px;
+
+  }
+
+  h3 {
+    display: none;
+  }
+  .arrow {
+    margin-top: 5px;
+  }
+  
+}
+
+/* 
+partie main
+*/
+
+/* first block  */
+
+h1 {
+  
+  color: #53c2c9;
+  text-align: center;
+  padding: 150px 0 50px 0;
+}
+.para-1 {
+  text-align: center;
+  margin: 0 250px 0 250px;
+  padding-bottom: 150px;
+}
+
+/* second block  */
+.second-block {
+  background: #ff7373;
+  margin: 0;
+  padding: 0;
+}
+.title-2 {
+  position: relative;
+  text-align: right;
+  color: #fff;
+  bottom: 150px;
+  right: 598px;
+  padding-bottom: 35px;
+}
+.para-2 {
+  position: relative;
+  text-align: right;
+  width: 400px;
+  left: 900px;
+  bottom: 150px;
+  color: #fff;
+}
+.mac-2 {
+  position: relative;
+  top: 200px;
+  left: 200px;
+
+}
+/* troisieme block  */
+
+.block-3 {
+  position: relative;
+  top: -16px;
+  background: #9a8cf0;
+  height: auto;
+
+}
+.title-3 {
+  position: relative;
+  color: #fff ;
+  text-align: right;
+  right: 1100px;
+  top: 110px;
+
+}
+.para-3 {
+  position: relative;
+  color: #fff;
+  width: 400px;
+  text-align: right;
+  top: 150px;
+  left: 404px;
+}
+/* .ipad {
+  position: relative;
+  align-items: center;
+  left: 769px;
+  top: -292px;
+} */
+.ipad-2 {
+  margin: 10px;
+  position: relative;
+  left: 994px;
+  top: -117px;
+}
+/* block 4  */
+
+.block-4 {
+  background: #121c25;
+  position: relative;
+  top: -16px;
+  margin: 0;
+  padding: 0;
+}
+.title-4 {
+  position: relative;
+  text-align: right;
+  color: #fff;
+  bottom: 150px;
+  right: 605px;
+  padding-bottom: 35px;
+}
+.para-2 {
+  position: relative;
+  text-align: right;
+  width: 400px;
+  left: 900px;
+  bottom: 150px;
+  color: rgb(255, 255, 255);
+} 
+.mac-4 {
+  position: relative;
+  top: 130px;
+  left: 189px;
+}
+/* 
+partie block 5
+*/
+.block-5 {
+  background: #1c2934;
+  position: relative;
+  top: -32px;
+  height: 600px;
+}
+.block-para {
+  position: relative;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  flex-direction: column;
+  top: -476px;
+  left: -159px;
+  width: 450px;
+}
+.title5, .para-5, a {
+  color: #fff;
+  text-align: right;
+  padding: 10px;
+}
+.iphone {
+  display: flex;
+  float: right;
+  margin-right: 250px;
+  margin-top: 40px;
+}
+
+/* clear  */
+.clear {
+  clear: both;
+}
+/* partie footer  */
+
+footer {
+  background: #64cdd3;
+  position: relative;
+  top: -48px;
+}
+.foot {
+
+}
+.block-foot {
+  width: 500px;
+  text-align: right;
+  float: right;
+  margin: 50px 150px 50px 150px;
+}
+.title-foot, .para-foot, .copyright {
+  color: #fff;
+  padding: 15px;
+}
+.social {
+  padding-right: 5px;
+  padding-left: 5px;
+}
+.logo-foot {
+  margin: 150px;
+}
